@@ -7,6 +7,7 @@ defmodule SumList do
 
   defp sum([head | tail], acc) do
     acc = acc + head
+
     sum(tail, acc)
   end
 end
